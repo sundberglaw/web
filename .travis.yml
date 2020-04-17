@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 12
+env:
+  global:
+    - PATH_PREFIX="web/"
+script: npm run build
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    github_url: github.com
+    github_token: $GITHUB_TOKEN
+    keep_history: false
+    local_dir: public
+    on:
+      branch: master
