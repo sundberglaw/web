@@ -1,10 +1,12 @@
+export pathPrefix = env.PATH_PREFIX || '/'
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Theme Carbon',
     description: 'A Gatsby theme for the carbon design system',
     keywords: 'gatsby,theme,carbon',
   },
-  pathPrefix: `/gtc`,
+  pathPrefix,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
