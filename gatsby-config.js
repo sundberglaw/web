@@ -1,4 +1,4 @@
-const pathPrefix = env.PATH_PREFIX || '/'
+const pathPrefix = process.env.PATH_PREFIX || '/'
 
 module.exports = {
   siteMetadata: {
