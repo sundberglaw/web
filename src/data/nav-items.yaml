@@ -1,29 +1,18 @@
-- title: Getting started
-  pages:
-    - path: /getting-started
-- title: Demo
+- title: About the firm
   pages:
     - path: /demo
-- title: Gallery
+- title: Practice Areas
   pages:
-    - path: /gallery
-- title: Contributions
-  pages:
-    - path: /contributions
-- title: Guides
-  pages:
-    - title: Configuration
-      path: /guides/configuration
-    - title: Authoring MDX
-      path: /guides/MDX
-    - title: Shadowing
-      path: /guides/shadowing
-    - title: Styling
-      path: /guides/styling
-    - title: Navigation
-      path: /guides/navigation/sidebar
-    - title: npm scripts
-      path: /guides/npm-scripts
+    - title: Overview
+      path: /practice-areas/overview
+    - title: Guardianship
+      path: /practice-areas/guardianship
+    - title: Family Law
+      path: /practice-areas/family-law
+    - title: Wills, Trusts and Estates
+      path: /practice-areas/wills-trusts-and-estates
+    - title: Probate
+      path: /practice-areas/probate
 - title: Components
   pages:
     - title: Accordion

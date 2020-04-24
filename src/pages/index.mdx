@@ -1,28 +1,62 @@
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 export default HomepageTemplate;
 
-## MDX content starts here
+## Practice Areas
 
 <PageDescription>
 
-The homepage content here lives in the `src/pages/index.mdx` directory at the root of your project. Just like the other mdx pages, you can use all of our theme components here without importing them. Review the [MDX example source](https://github.com/carbon-design-system/gatsby-theme-carbon/blob/master/packages/example/src/pages/index.mdx).
+There are multiple areas of practice for the firm.
 
 </PageDescription>
 
-<FeatureCard
+<Row>
+<Column colLg={3} colMd={3} noGutterMdLeft>
+<ArticleCard
     color="dark"
-    href="/getting-started"
-    title="Getting started"
-    actionIcon="arrowRight"
-    className="homepage-feature"
+    title="Family Law"
+    subTitle="Navigating delicate family situations"
+    href="/practice-areas/family-law"
     >
 
-<ArtDirection>
+![](resources/images/family-law.jpg)
 
-![blue vertical stripes](../images/blue-stripes-mobile.png)
-![blue vertical stripes](../images/blue-stripes-tablet.png)
-![blue vertical stripes](../images/blue-stripes.png)
+</ArticleCard>
 
-</ArtDirection>
+</Column>
+<Column colLg={3} colMd={3} noGutterMdLeft>
+<ArticleCard
+    color="dark"
+    title="Guardianship"
+    subTitle="Some info about guardianship"
+    href="/practice-areas/guardianship"
+    >
 
-</FeatureCard>
+![](resources/images/guardianship.jpg)
+
+</ArticleCard>
+</Column>
+<Column colLg={3} colMd={3} noGutterMdLeft>
+<ArticleCard
+    color="dark"
+    title="Wills, Trusts and Estates"
+    subTitle="Some info about Trusts and Estates"
+    href="/practice-areas/wills-trusts-and-Estates"
+    >
+
+![](/resources/images/wills-and-estates.jpg)
+
+</ArticleCard>
+</Column>
+<Column colLg={3} colMd={3} noGutterMdLeft>
+<ArticleCard
+    color="dark"
+    title="Probate"
+    subTitle="Some info about Probate"
+    href="/practice-areas/probate"
+    >
+
+![](/resources/images/probate.jpg)
+
+</ArticleCard>
+</Column>
+</Row>
