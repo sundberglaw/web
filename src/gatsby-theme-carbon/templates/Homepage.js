@@ -3,7 +3,7 @@ import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 
-import Carbon from '../../images/lady-justice.jpg';
+import Carbon from '../../images/lawyer-desk.jpg';
 
 const FirstLeftText = () => <p><img src="/resources/images/kelly-headshot-gray.jpg"/></p>;
 
