@@ -3,9 +3,9 @@ import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 
-import Carbon from '../../images/lawyer-desk.jpg';
+import Carbon from '../../images/kelly-logo-full-resize.png';
 
-const FirstLeftText = () => <p><img src="/resources/images/kelly-headshot-gray.jpg"/></p>;
+const FirstLeftText = () => <p><img src="/images/kelly-headshot-gray.jpg"/></p>;
 
 const FirstRightText = () => (
   <p>
@@ -39,10 +39,10 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>Banner component</h1>;
+const BannerText = () => '';
 
 const customProps = {
-  Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
+  Banner: <HomepageBanner backgroundColor="#030303" renderText={BannerText} image={Carbon} />,
   FirstCallout: (
     <HomepageCallout
       backgroundColor="#030303"
