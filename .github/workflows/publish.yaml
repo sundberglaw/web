@@ -38,4 +38,4 @@ jobs:
           publish_dir: ${{ env.DIST_DIR }}
           publish_branch: ${{ env.PUBLISH_BRANCH }}
           enable_jekyll: false
-          # cname: www.kellysundberglaw.com
+          cname: kellysundberglaw.com
